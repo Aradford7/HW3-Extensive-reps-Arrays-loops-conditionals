@@ -137,19 +137,42 @@ console.log(jimHaff);*/
 
 //YELL AT THE NINJA TURTLES
 //1.Create an array with the memeber of the ninja turtles
-arr = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+//ninja = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
 //2.Use a for loop to call .toUpperCase() on each of them and print
 //out the results.
 
-var arrToUp = String.prototype.toUpperCase.apply(arr).split(",");
-    console.log(arrToUp)
+/*var arrToUp = String.prototype.toUpperCase.apply(ninja).split(",");
+    console.log(arrToUp)*/
 
+/*for(var i = 0; i < arr.length; i++){
+    ninja[i] = ninja[i].toUpperCase();
+    console.log(ninja);
+}*/
+
+/*let ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+function changeUp(){
+    for(i=0;i<ninja.length;i++){
+   ninja[i]=ninja[i].toUpperCase();
+    }
+    console.log(ninja)
+}
+console.log(changeUp(ninja))*/
 //3.Bonus: Modify the answer to lowercase.
 
-var arrToDown = String.prototype.toLowerCase.apply(arr).split(",");
-    console.log(arrToDown)
+/*var arrToDown = String.prototype.toLowerCase.apply(arr).split(",");
+    console.log(arrToDown)*/
 
+/*let ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+    function changeUp(){
+        for(i=0;i<ninja.length;i++){
+       ninja[i]=ninja[i].toLowerCase();
+        }
+        console.log(ninja)
+    }
+    console.log(changeUp(ninja))*/
+
+//
 
 
 
