@@ -56,14 +56,15 @@ function meow(){
 }*/
 //3.If divisible by 5 log "Buzz" instead of number
 
-for(let i=0; i <=100; i++){
+/*for(let i=0; i <=100; i++){
     if(i % 5 ===0){
         console.log("Buzz");
     }
-}
+}*/
 
 //4.If a number is divisible by 3 and 5 log "FizzBuzz" instead of number.
-for(let i=0; i <=100; i++){
+
+/*for(let i=0; i <=100; i++){
     if(i % 3 === 0 && i % 5 ===0){
         console.log("FizzBuzz");
     }
@@ -75,5 +76,62 @@ for(let i=0; i <=100; i++){
     }   else{
         console.log(i)
     }
-}
+}*/
+
+//GETTING TO KNOW YOU
+const kenny = ["Kenny", 1000, "Austin"];
+const jimHaff = ["Jim H", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const jimClark = ["Jim C", 186, "LA"];
+const ryan = ["Ryan", 65, "Denver"];
+
+//1.Jim Clark decides that Kenny can't be named "Kenny" anymore.
+//Remove "Kenny" from the kenny array and repace it with "Gameboy"
+
+/*kenny[0] = ["Gameboy"];
+    console.log(kenny[0]);*/
+
+/*kenny.splice(0,1,"Gameboy");
+    console.log(kenny)*/
+
+//2.Jim Clark had his birthday; change jimClark's array to reflect
+//him being a year older. W/O knowing age add an year
+
+/*var JimAge= jimClark[1];
+  var NewJimAge= JimAge+1;
+    jimClark.splice(1,1,NewJimAge);
+    console.log(jimClark)*/
+
+//3.Ryan is Batman or Robin. Change Ryan's hometown from Denver
+//to "Gotham City"
+
+/*ryan[0,2] = ["Gotham City"];
+    console.log(ryan[0,2]);*/
+/*ryan.pop();
+    console.log(ryan);
+ryan.push("Gotham City");
+    console.log(ryan);*/
+
+//4.Reuben left Durham 5 years ago to come to Chicago. First,
+//remove"Durham" from Reuben's array, and then add "Chicago".
+
+/*reuben.pop();
+    console.log(reuben);
+ reuben.push("Chicago");
+     console.log(reuben);*/
+
+//5.Jim Haff could be literally anywhere in the wolrd. Remove
+//"All cities" from his array, then pick 3 cities you like and add 
+//them to Jim's array.
+
+//jimHaff.pop();
+//jimHaff.push("Fantasyland","Wonderland","Neverland");
+//console.log(jimHaff);
+
+//6.Bonus.Jim Haff is actually only allowed to be in one of the two
+//cities. first city is jim remove it from the array using .splice()
+/*var NewCity= jimHaff[1];
+var removed = [2];
+    jimHaff.splice(2,2, NewCity);
+console.log(jimHaff);*/
 
