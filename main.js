@@ -1,4 +1,4 @@
-console.log('JS is Running Running Running....')
+console.log('JS is Running Running Running....uhh')
 
 //EASY GOING
 //1. Write a loop that will log the numbers1 through 20.
@@ -26,9 +26,21 @@ console.log('JS is Running Running Running....')
 
 //Hint: You will need to use Math.random()
 
-for (let i = 0; i < 20; i++){
-    console.log('Love me, pet me! HSSSSSS!')
-}
-    if (Math.random ("...human...why you taking pictures of me?..."||"...the catnip made me do it..."||"...why does the red dot always get away..."));
-        console.log(Math.random())
+//for (let i = 0; i < 20; i++){
+    //console.log('Love me, pet me! HSSSSSS!')}
+
+/*const salem = ["...human...why you taking pictures of me?...",
+"...the catnip made me do it...", "...why does the red dot always get away..."];
+
+function meow(){
+    let salem = [i];
+    for (let i = 0; i < 20; i++){
+        console.log('Love me, pet me! HSSSSSS!');
+        if ((i % 2 ==0)){
+            Math.Random(salem+ i);{
+            console.log(meow)}
+        }
+     }
+}*/
+
 
