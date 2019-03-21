@@ -172,8 +172,76 @@ console.log(changeUp(ninja))*/
     }
     console.log(changeUp(ninja))*/
 
-//
+//RETURN OF THE CLOSETS
 
+//Use data of the code and answer the questions.
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+//1.Alien Attire - Kristyn's left shoe has traveled through time
+//and space and turned up in Thom's accessory drawer! Remove Kristyn's
+//shoe from the array and save it to the variable kristynsShoe Use that 
+//variable to add Kristn's lost shoe to Thom's accessories array.
+
+//2.Dress'em Up - Modify your code to put together 3 separate outfits 
+//for Kristyn and Thom. Put the output in a sentence to tells us what
+//we'll be wearing. Mix and match!
+
+//3. Dirty Laundry - Time to do laundry - loop through Kristyn's 
+//closet and log the sentence "WHIRR: Now washing (item)" for each
+//item in the array.
+
+//4. Inventory - Thom wants to do inventory on his closet. Using
+//bracket notation, log the arrays containing all of Thom's shirts,
+//pants, and accessories
+
+//MULTIPLES OF 3 and 5
+//List all natural numbers below 10 that are multiple of 3 or 5,
+//we get 3,5,6,and 9. The sum of these multiples is 23.
+//Find the sum of all the multiples of 3 or 5 below 1000.
+
+function isDiv(num, divisible){
+    return num % divisible == 0;
+}
+var problem=[];
+problem[1] = function () {
+    var sum = 0;
+    for (var i = 0; i < 1000; i++){
+        if(isDiv(i, 3) || isDiv(i,5)){
+
+        }
+    }
+    return sum;
+};
+//ANSWER 233168
 
 
 
