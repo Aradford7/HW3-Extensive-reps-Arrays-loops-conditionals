@@ -3,9 +3,9 @@ console.log('JS is Running Running Running....uhh')
 //EASY GOING
 //1. Write a loop that will log the numbers1 through 20.
 
-/*for(let i=1; i<=20; i++){
-    console.log('The number is' + i);}*/
-//"Commit 1 - Easy Going answered"
+for(let i=1; i<=20; i++){
+    console.log('The number is' + i);}
+"Commit 1 - Easy Going answered"
 
 //GET EVEN
 //1. Write a for loop that will log only the even numbers 
@@ -79,11 +79,11 @@ function meow(){
 }*/
 
 //GETTING TO KNOW YOU
-const kenny = ["Kenny", 1000, "Austin"];
+/*const kenny = ["Kenny", 1000, "Austin"];
 const jimHaff = ["Jim H", 16, "All cities"];
 const reuben = ["Reuben", 22, "Durham"];
 const jimClark = ["Jim C", 186, "LA"];
-const ryan = ["Ryan", 65, "Denver"];
+const ryan = ["Ryan", 65, "Denver"];*/
 
 //1.Jim Clark decides that Kenny can't be named "Kenny" anymore.
 //Remove "Kenny" from the kenny array and repace it with "Gameboy"
@@ -228,7 +228,7 @@ const kristynsCloset = [
 //we get 3,5,6,and 9. The sum of these multiples is 23.
 //Find the sum of all the multiples of 3 or 5 below 1000.
 
-function isDiv(num, divisible){
+/*function isDiv(num, divisible){
     return num % divisible == 0;
 }
 var problem=[];
@@ -241,7 +241,7 @@ problem[1] = function () {
     }
     return sum;
 };
-//ANSWER 233168
+//ANSWER 233168*/
 
 
 
