@@ -135,3 +135,23 @@ var removed = [2];
     jimHaff.splice(2,2, NewCity);
 console.log(jimHaff);*/
 
+//YELL AT THE NINJA TURTLES
+//1.Create an array with the memeber of the ninja turtles
+arr = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+//2.Use a for loop to call .toUpperCase() on each of them and print
+//out the results.
+
+var arrToUp = String.prototype.toUpperCase.apply(arr).split(",");
+    console.log(arrToUp)
+
+//3.Bonus: Modify the answer to lowercase.
+
+var arrToDown = String.prototype.toLowerCase.apply(arr).split(",");
+    console.log(arrToDown)
+
+
+
+
+
+
