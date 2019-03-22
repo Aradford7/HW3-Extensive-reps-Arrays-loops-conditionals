@@ -3,9 +3,9 @@ console.log('JS is Running Running Running....uhh')
 //EASY GOING
 //1. Write a loop that will log the numbers1 through 20.
 
-for(let i=1; i<=20; i++){
+/*for(let i=1; i<=20; i++){
     console.log('The number is' + i);}
-"Commit 1 - Easy Going answered"
+"Commit 1 - Easy Going answered"*/
 
 //GET EVEN
 //1. Write a for loop that will log only the even numbers 
@@ -210,6 +210,14 @@ const kristynsCloset = [
 //and space and turned up in Thom's accessory drawer! Remove Kristyn's
 //shoe from the array and save it to the variable kristynsShoe Use that 
 //variable to add Kristn's lost shoe to Thom's accessories array.
+
+//declare array, remove from array, 
+var kristynsShoe = kristynsCloset.splice(0,1);
+console.log(kristynsCloset);
+console.log(kristynsShoe) ; 
+placing the shoe in thoms closet
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset[2]);
 
 //2.Dress'em Up - Modify your code to put together 3 separate outfits 
 //for Kristyn and Thom. Put the output in a sentence to tells us what
