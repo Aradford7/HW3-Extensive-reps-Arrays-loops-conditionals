@@ -210,14 +210,16 @@ const kristynsCloset = [
 //and space and turned up in Thom's accessory drawer! Remove Kristyn's
 //shoe from the array and save it to the variable kristynsShoe Use that 
 //variable to add Kristn's lost shoe to Thom's accessories array.
+kristynsCloset.splice(0,1);
+const kristynsCloset = ["left shoe"];
 
 //declare array, remove from array, 
-var kristynsShoe = kristynsCloset.splice(0,1);
+/*var kristynsShoe = kristynsCloset.splice(0,1);
 console.log(kristynsCloset);
 console.log(kristynsShoe) ; 
 placing the shoe in thoms closet
 thomsCloset[2].push(kristynsShoe);
-console.log(thomsCloset[2]);
+console.log(thomsCloset[2]);*/
 
 //2.Dress'em Up - Modify your code to put together 3 separate outfits 
 //for Kristyn and Thom. Put the output in a sentence to tells us what
@@ -230,7 +232,18 @@ console.log(thomsCloset[2]);
 //4. Inventory - Thom wants to do inventory on his closet. Using
 //bracket notation, log the arrays containing all of Thom's shirts,
 //pants, and accessories
+let kristynsOutfit = [];
 
+    while (kristynsCloset.length > 0)
+    kristynsOutfit.push(kristynsCloset.splice(0, 3));
+    console.log(kristynsOutfit);
+
+
+    let thomsOutfit = [];
+
+    while (thomsCloset.length > 0)
+    thomsOutfit.push(thomsCloset.splice(0,3));
+    console.log(thomsOutfit);
 //MULTIPLES OF 3 and 5
 //List all natural numbers below 10 that are multiple of 3 or 5,
 //we get 3,5,6,and 9. The sum of these multiples is 23.
